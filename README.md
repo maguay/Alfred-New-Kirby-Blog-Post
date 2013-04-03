@@ -1,4 +1,4 @@
-This is a tweaked version of [Mark Jenkins' Alfred 2 workflow](http://plausiblethought.net/creating-new-blog-posts-with-an-alfred-workflow) for creating new posts in [Kirby CMS](http://getkirby.com/). Before use, you'll need to add your site's folder path to the beginning of both scripts.
+This is a tweaked version of [Marc Jenkins' Alfred 2 workflow](http://plausiblethought.net/creating-new-blog-posts-with-an-alfred-workflow) for creating new posts in [Kirby CMS](http://getkirby.com/). Before use, you'll need to add your site's folder path to the beginning of both scripts.
 
 You can [download the workflow directly](https://github.com/maguay/Alfred-New-Kirby-Blog-Post/raw/master/New%20Kirby%20blog%20post.alfredworkflow), or look at the [/Alfred Workflow Files/info.plist](https://github.com/maguay/Alfred-New-Kirby-Blog-Post/blob/master/Alfred%20Workflow%20Files/info.plist) file to see what makes it tick.
 

@@ -52,7 +52,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Mark Jenkins and Matthew Guay</string>
+	<string>Marc Jenkins and Matthew Guay</string>
 	<key>description</key>
 	<string>Create a new blog post with Kirby</string>
 	<key>disabled</key>
@@ -227,7 +227,7 @@ open article.md</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>This is a tweaked version of Mark Jenkins's Alfred 2 workflow for creating new posts in Kirby (http://plausiblethought.net/creating-new-blog-posts-with-an-alfred-workflow).
+	<string>This is a tweaked version of Marc Jenkins's Alfred 2 workflow for creating new posts in Kirby (http://plausiblethought.net/creating-new-blog-posts-with-an-alfred-workflow).
 
 It lets you enter the title of a new post in Alfred to create a new, iterated folder for your post with your post name using dashes instead of spaces, and an article.md file for your post. The post text file will open automatically with the title and date already included.
 
