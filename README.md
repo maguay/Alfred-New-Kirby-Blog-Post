@@ -1,6 +1,6 @@
-This is a tweaked version of [Mark Jenkins' Alfred 2 workflow](http://plausiblethought.net/creating-new-blog-posts-with-an-alfred-workflow) for creating new posts in [Kirby CMS](http://getkirby.com/).
+This is a tweaked version of [Mark Jenkins' Alfred 2 workflow](http://plausiblethought.net/creating-new-blog-posts-with-an-alfred-workflow) for creating new posts in [Kirby CMS](http://getkirby.com/). Before use, you'll need to add your site's folder path to the beginning of both scripts.
 
-It lets you enter the title of a new post in Alfred to create a new, iterated folder for your post (not including your feed folder) with your post name using dashes instead of spaces, and an article.md file for your post. The post text file will open automatically with the title and date already included.
+This workflow lets you enter the title of a new post in Alfred to create a new, iterated folder for your post (not including your feed folder) with your post name using dashes instead of spaces, and an article.md file for your post. The post text file will open automatically with the title and date already included.
 
 You can also create a link post (saved as article.link.md) using this workflow, which will grab the contents of your clipboard and save it as the link in the post. You'll just need to have the link you want to blog about copied to your clipboard before you start creating the new post in Alfred.
 

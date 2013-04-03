@@ -67,8 +67,8 @@
 				<key>escaping</key>
 				<integer>62</integer>
 				<key>script</key>
-				<string>/* navigate to blog folder */
-cd ~/Dropbox/Techinch/content/01-blog/
+				<string>/* navigate to blog folder - REPLACE WITH YOUR OWN BLOG FOLDER BEFORE USE */
+cd ~/YOUR-SITE-FOLDER/content/YOUR-BLOG-FOLDER/
 
 /* count files */
 COUNT=$(ls | wc -l)
@@ -164,8 +164,8 @@ open article.link.md</string>
 				<key>escaping</key>
 				<integer>62</integer>
 				<key>script</key>
-				<string>/* navigate to blog folder */
-cd ~/Dropbox/Techinch/content/01-blog/
+				<string>/* navigate to blog folder - REPLACE WITH YOUR OWN BLOG FOLDER BEFORE USE */
+cd ~/YOUR-SITE-FOLDER/content/YOUR-BLOG-FOLDER/
 
 /* count files */
 COUNT=$(ls | wc -l)
@@ -232,6 +232,8 @@ open article.md</string>
 It lets you enter the title of a new post in Alfred to create a new, iterated folder for your post with your post name using dashes instead of spaces, and an article.md file for your post. The post text file will open automatically with the title and date already included.
 
 You can also create a link post (saved as article.link.md) using this workflow, which will grab the contents of your clipboard and save it as the link in the post.
+
+DO NOTE: You must add your site and blog folder to the folder path in both scripts in this workflow for it to work for your site.
 
 Tweaked by Matthew Guay - Techinch.com.</string>
 	<key>uidata</key>
