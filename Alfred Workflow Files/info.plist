@@ -71,7 +71,7 @@
 cd ~/YOUR-SITE-FOLDER/content/YOUR-BLOG-FOLDER/
 
 /* count files */
-COUNT=$(ls | grep '^[0-9]\{1,2\}' | wc -l)
+COUNT=$(ls | grep '^[0-9]\{1,4\}' | wc -l)
 
 /* Increase count by one for the next post */
 ((COUNT++))
