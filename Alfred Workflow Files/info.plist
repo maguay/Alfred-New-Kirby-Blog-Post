@@ -76,10 +76,6 @@ COUNT=$(ls | grep '^[0-9]\{1,4\}' | wc -l)
 /* Increase count by one for the next post */
 ((COUNT++))
 
-
-/* remove feed folder from count */
-NEWCOUNT=$(expr $COUNT - 1)
-
 /* replace spaces in query with dashes for folder name */
 DNAME=$(echo {query} | tr " " "-")
 
