@@ -71,10 +71,10 @@
 cd ~/YOUR-SITE-FOLDER/content/YOUR-BLOG-FOLDER/
 
 /* count files */
-COUNT=$(ls | wc -l)
+COUNT=$(ls | grep '^[0-9]\{1,4\}' | wc -l)
 
-/* remove feed folder from count */
-NEWCOUNT=$(expr $COUNT - 1)
+/* Increase count by one for the next post */
+((COUNT++))
 
 /* replace spaces in query with dashes for folder name */
 DNAME=$(echo {query} | tr " " "-")
